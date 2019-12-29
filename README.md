@@ -15,4 +15,4 @@ AllenNLP is used to deploy the model. Qt is used to develop the server.
 3.On the server, articles and questions are sent to the server through the network, the model makes predictions, and the results are sent back to the client for subsequent processing. (Of course you can run client and server on the same computer, just pay attention to the URL)
 
 # Result
-![result](https://github.com/Whu-wxy/MRCClient/blob/master/20190225180705.png)
+![result](https://github.com/Whu-wxy/MRCClient/blob/master/20190225180705.jpg)
