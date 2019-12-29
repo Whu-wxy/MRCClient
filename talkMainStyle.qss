@@ -1,0 +1,93 @@
+QDialog {
+        background: rgb(173, 202, 232);
+}
+
+
+
+/**********滚动区域**********/
+QScrollArea {
+        border: 1px solid rgb(111, 156, 207);
+        background: rgb(187, 212, 238);
+}
+/**********滚动条-垂直**********/
+QScrollBar:vertical {
+        width: 20px;
+        background: transparent;
+        margin-left: 3px;
+        margin-right: 3px;
+}
+QScrollBar:handle:vertical {
+        width: 20px;
+        min-height: 30px;
+        background: rgb(170, 200, 230);
+        margin-top: 15px;
+        margin-bottom: 15px;
+}
+QScrollBar:handle:vertical:hover {
+        background: rgb(165, 195, 225);
+}
+QScrollBar:sub-line:vertical {
+        height: 15px;
+        background: transparent;
+        subcontrol-position: top;
+}
+QScrollBar:add-line:vertical {
+        height: 15px;
+        background: transparent;
+        subcontrol-position: bottom;
+}
+QScrollBar:sub-line:vertical:hover {
+        background: rgb(170, 200, 230);
+}
+QScrollBar:add-line:vertical:hover {
+        background: rgb(170, 200, 230);
+}
+QScrollBar:add-page:vertical, QScrollBar::sub-page:vertical {
+        background: transparent;
+}
+
+
+/**********按钮**********/
+
+
+
+
+/*****************标题栏按钮*******************/
+QPushButton#min {
+    border: none;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background: rgb(120, 170, 220);
+}
+QPushButton#min:hover{
+    background: rgb(100, 160, 220);
+}
+QPushButton#min:pressed  {
+    background: rgb(10, 80, 160);
+}
+
+/*****关闭窗口*******/
+QPushButton#close {
+    border: none;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background: rgb(120, 170, 220);
+}
+QPushButton#close:hover{
+    background: rgb(230, 60, 60);
+}
+QPushButton#close:pressed  {
+    background: rgb(210, 30, 30);
+}
+
+
+/**********页签项**********/
+QTabWidget::pane {
+        border: none;
+        border-top: 3px solid rgb(0, 78, 161);
+        background: rgb(187, 212, 238);
+}
+QTabWidget::tab-bar {
+        border: none;
+}
+

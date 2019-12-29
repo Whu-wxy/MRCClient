@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>background.jpg</file>
+        <file>icon.ico</file>
+        <file>min.ico</file>
+        <file>close.ico</file>
+    </qresource>
+    <qresource prefix="/style">
+        <file>androidEnterstyle.qss</file>
+        <file>winEnterWhite.qss</file>
+        <file>talkMainStyle.qss</file>
+    </qresource>
+</RCC>
